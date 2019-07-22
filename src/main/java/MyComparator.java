@@ -11,8 +11,9 @@ class MyComparator implements Comparator<Integer> {
             return -1;
         } else if (n1 % 2 != 0 & n2 % 2 == 0) {
             return 1;
-        } else
+        } else {
             return n1.compareTo(n2);
+        }
     }
 }
 
